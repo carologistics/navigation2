@@ -96,6 +96,7 @@ ament_target_dependencies(layers
 target_link_libraries(layers
   ${PROJECT_NAME}::nav2_costmap_2d_core
 )
+target_compile_options(layers PRIVATE -Wno-error)
 
 add_library(filters SHARED
   plugins/costmap_filters/keepout_filter.cpp

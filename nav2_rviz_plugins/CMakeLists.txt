@@ -32,6 +32,7 @@ find_package(std_msgs REQUIRED)
 find_package(tf2_geometry_msgs REQUIRED)
 find_package(visualization_msgs REQUIRED)
 find_package(yaml_cpp_vendor REQUIRED)
+find_package(yaml-cpp REQUIRED)
 
 set(nav2_rviz_plugins_headers_to_moc
   include/nav2_rviz_plugins/goal_pose_updater.hpp
